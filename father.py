@@ -6,6 +6,11 @@ def father():
     X = input()
     if X == "A":
         print ("you decide to wait with the family, keeping your hand on your sword")
+        from wait import mistake
+        mistake ()
 
     if X == "B":
         print ("you quickly pull your sword out and run, telling the father and daughter to stay put ")
+        print ("that's when both get possesed, jumping on you suddenly and stabbing into you, tearing you apart before you could ever relize")
+        print ("you died")
+        exit()

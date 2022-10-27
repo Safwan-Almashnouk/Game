@@ -11,3 +11,5 @@ def carriages():
         father ()
     elif X == B:
         print("you get into the carriage, surronded by around 3 beautiful red haired women, you feel somewhat lucky, who wouldn't want to be in a small carraige with such beauties?")
+        from sith import vampire
+        vampire()

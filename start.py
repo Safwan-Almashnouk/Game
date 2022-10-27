@@ -20,9 +20,15 @@ if X == A:
 
 if X == B:
     print ("you get onto your white steed, the steed seems excited, as you set off on your journey")
+    from running import lyra
+    lyra()
 
 if X == C:
     print ("you deicede to walk, a rather stupid idea, but hey, excericese right?")
+    print ("you walk and run and run and run and eventually arrive")
+    from Lodran import quest_start
+    quest_start()
 
 if X == D:
     print ("you get on the boat and let the stream of the river take you")
+    from lake import monster
